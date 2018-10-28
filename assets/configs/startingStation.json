@@ -1,0 +1,10 @@
+{
+  "hull": "draconic:draconicStation",
+  "items": "draconic:scorcher draconic:scorcher",
+
+  "guard": {
+    "hull": "core:imperialBig",
+    "items": "core:fixedGun core:fixedShotGun core:mediumArmor+core:heavyArmor core:shield+core:bigShield",
+    "density": 3
+  }
+}
