@@ -3,8 +3,8 @@
   "items": "draconic:scorcher draconic:scorcher",
 
   "guard": {
-    "hull": "core:imperialBig",
-    "items": "core:fixedGun core:fixedShotGun core:mediumArmor+core:heavyArmor core:shield+core:bigShield",
+    "hull": "draconic:draconicMedium",
+    "items": "draconic:scorcher draconic:scorcher core:mediumArmor+core:heavyArmor core:shield+core:bigShield",
     "density": 3
   }
 }

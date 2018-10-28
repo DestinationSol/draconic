@@ -16,6 +16,18 @@
           "density": 4
         }
       }
-    ]
+    ],
+
+    "trading": {
+      "items": "rep draconic:scorcher core:bigShield core:advancedArmor core:teleportCharge draconic:fireballClip core:mediumArmor",
+      "ships": "draconic:draconicTiny draconic:draconicMedium draconic:draconicLarge draconic:draconicCapital",
+      "mercenaries": [
+        {
+          "hull": "draconic:draconicMedium",
+          "items": "5*rep core:smallShield",
+          "money": 250
+        }
+      ]
+    }
   }
 }
