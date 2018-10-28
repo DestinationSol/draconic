@@ -1,4 +1,52 @@
 {
+  "standard": {
+    "constantAllies": [
+      {
+        "hull": "draconic:draconicMedium",
+        "items": "draconic:scorcher draconic:scorcher 0.5|core:lightArmor 0.75|core:smallShield+core:shield",
+        "density": 2
+      },
+
+      {
+        "hull": "draconic:draconicCapital",
+        "items": "draconic:scorcher draconic:scorcher core:advancedArmor core:advancedShield",
+        "repairer": true,
+        "density": 1,
+
+        "guard": {
+          "hull": "draconic:draconicTiny",
+          "items": "draconic:scorcher core:mediumArmor core:smallShield",
+          "density": 4
+        }
+      },
+
+      {
+        "hull": "draconic:draconicStation",
+        "items": "draconic:scorcher draconic:scorcher",
+        "repairer": true,
+        "density": 1,
+
+        "guard": {
+          "hull": "draconic:draconicMedium",
+          "items": "draconic:scorcher draconic:scorcher core:mediumArmor+core:heavyArmor core:shield+core:bigShield",
+          "density": 3
+        }
+      }
+    ],
+
+    "trading": {
+      "items": "rep draconic:scorcher core:bigShield core:advancedArmor core:teleportCharge draconic:fireballClip core:mediumArmor",
+      "ships": "draconic:draconicTiny draconic:draconicMedium draconic:draconicLarge draconic:draconicCapital",
+      "mercenaries": [
+        {
+          "hull": "draconic:draconicMedium",
+          "items": "5*rep core:smallShield",
+          "money": 250
+        }
+      ]
+    }
+  },
+
   "hard":
   {
     "hard": true,
