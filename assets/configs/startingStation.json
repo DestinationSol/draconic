@@ -1,0 +1,10 @@
+{
+  "hull": "draconic:draconicStation",
+  "items": "draconic:scorcher draconic:scorcher",
+
+  "guard": {
+    "hull": "draconic:draconicMedium",
+    "items": "draconic:scorcher draconic:scorcher core:mediumArmor+core:heavyArmor core:shield+core:bigShield",
+    "density": 3
+  }
+}
